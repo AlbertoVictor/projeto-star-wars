@@ -24,6 +24,11 @@ header {
     justify-content: space-around;
 }
 
+.navegacao{
+    display: flex;
+    gap: 20px;
+}
+
 .logo {
     width: 250px;
     height: 100%;
@@ -54,7 +59,7 @@ i:hover {
 }
 
 .filmes {
-    font-family: 'Star Wars',sans-serif;
+    font-family: 'Star Wars', sans-serif;
     font-size: 1rem;
     
 }

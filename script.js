@@ -47,7 +47,7 @@ async function loadCharacters(url) {
                 mass.innerText =`Peso: ${convertMass(character.mass)}`
                 const eyeColor = document.createElement("span")
                 eyeColor.className ="character-details"
-                eyeColor.innerText =`Cor dos Olhos: ${convertEyeColor(character.eye_color)}`
+                eyeColor.innerText =`Cor dos olhos: ${convertEyeColor(character.eye_color)}`
                 const birthYear = document.createElement("span")
                 birthYear.className ="character-details"
                 birthYear.innerText =`Nascimento: ${convertBirthYear(character.birth_year)}`
