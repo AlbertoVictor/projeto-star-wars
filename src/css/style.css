@@ -53,6 +53,15 @@ i:hover {
     color: gold;
 }
 
+.filmes {
+    font-family: 'Star Wars',sans-serif;
+    font-size: 1rem;
+    
+}
+.filmes:hover {
+    color: gold;
+}
+
 .main-container {
     display: flex;
     align-items: center;
@@ -188,6 +197,7 @@ footer {
     border-radius: 50%;
     background-position: 50% 10%;
     background-size: cover;
+    margin-bottom: 30px;
 }
 
 .character-details {
@@ -200,6 +210,10 @@ footer {
 @media (max-width: 1024px) {
     .main-container {
       padding: 20px;
+    }
+    .navegacao{
+        display: flex;
+        gap: 20px;
     }
     
     h2 {
@@ -215,6 +229,10 @@ footer {
     h2 {
         text-align: center;
     }
+    .navegacao{
+        display: flex;
+        gap: 20px;
+    }
 
     .modal-content {
         width: 70vw;
@@ -226,6 +244,14 @@ footer {
 }
 
 @media (max-width: 414px){
+    header {
+        flex-wrap: wrap;
+    }
+    .navegacao{
+        display: flex;
+        gap: 20px;
+    }
+
     h2 {
         font-size: 18px;
         padding: 0 5px;
